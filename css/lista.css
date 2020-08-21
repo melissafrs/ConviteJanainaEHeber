@@ -102,10 +102,11 @@
     }
     #voltar {
         width: auto;
-        height: 30px;
-        position: relative;
+        height: 45px;
+        position:absolute;
+        left: auto;
+        right: 10px;
         top: 8%;
-        left: -150px;
     }
     #popup4, #popup1 ,#popup0,#popup3, #popup2 ,#popup5, #popup6, #popup7, #popup8, #popup9, #popup10, #popup11, #popup12, #popup13, #popup14, #popup15, #popup16, #popup17, #popup18, #popup19, #popup20 {
     width: 350px;
