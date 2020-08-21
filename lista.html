@@ -1,0 +1,440 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="./css/main.css">
+        <link rel="stylesheet" type="text/css" href="./css/lista.css">
+        <link rel="stylesheet" type="text/css" href="./css/normalize.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, max-scale=1.0">
+        <title>Janaína e Heber</title>
+
+        <script type="text/javascript">
+            function abrir(nome) {
+                document.getElementById(nome).style.display = 'block';                
+                for (var i = 0; i < 21; i++) {
+                    document.getElementsByTagName("a")[i].removeAttribute('href');
+                 }
+            }
+			function fechar(nome){
+                document.getElementById(nome).style.display =  'none';
+                for (var i = 0; i < 21; i++) {
+                    var x = 'javascript: abrir'+"('popup"+ i + "');";
+                    document.getElementsByTagName("a")[i].setAttribute('href', x); 
+                }
+            }
+        </script>
+        
+    </head>
+    <body>
+        <div id="itens">
+            <img id="rosa1" src="./img/Camada 4.png">
+            
+            <img class="notas" id="titulo" src="./img/lista/ListadePresentes.png">
+            <table id="tabela">
+                <tr>
+                    <td> <a href="javascript: abrir('popup0');">  <img class="imlis" id="sofa" src="./img/lista/sofa.png">  </a> </td>
+                    <td> <a href="javascript: abrir('popup1');">  <img class="imlis" id="rack" src="./img/lista/rack.png">  </a> </td>
+                    <td> <a href="javascript: abrir('popup2');">  <img class="imlis" id="puff" src="./img/lista/puff.png">  </a> </td>
+                </tr>
+                <tr>
+                    <td> <a href="javascript: abrir('popup3');">  <img class="imlis" id="fritadeira" src="./img/lista/fritadeira.png">  </a> </td>
+                    <td> <a href="javascript: abrir('popup4');">  <img class="imlis" id="cafeteira" src="./img/lista/cafeteira.png">  </a> </td>
+                    <td> <a href="javascript: abrir('popup5');">  <img class="imlis" id="sandui" src="./img/lista/sandui.png">  </a> </td>
+                </tr>
+                <tr>
+                   <td> <a href="javascript: abrir('popup6');">  <img class="imlis" id="mixer" src="./img/lista/mixer.png">  </a> </td>
+                   <td> <a href="javascript: abrir('popup7');">  <img class="imlis" id="feuteira" src="./img/lista/feuteira.png">  </a> </td>
+                   <td> <a href="javascript: abrir('popup8');">  <img class="imlis" id="processador" src="./img/lista/procesador.png">  </a> </td>
+                </tr>
+                <tr>
+                   <td> <a href="javascript: abrir('popup9');">  <img class="imlis" id="faqueiro" src="./img/lista/faqueiro.png">  </a> </td>
+                   <td> <a href="javascript: abrir('popup10');">  <img class="imlis" id="aparelhoJantar" src="./img/lista/aparelhoJantar.png">  </a> </td>
+                   <td> <a href="javascript: abrir('popup11');">  <img class="imlis" id="marinex" src="./img/lista/marinex.png">  </a> </td>
+                </tr>
+                <tr>
+                   <td> <a href="javascript: abrir('popup12');">  <img class="imlis" id="batedeira" src="./img/lista/batedeira.png">  </a> </td>
+                   <td> <a href="javascript: abrir('popup13');">  <img class="imlis" id="criadoMudo" src="./img/lista/criadoMudo.png">  </a> </td>
+                   <td> <a href="javascript: abrir('popup14');">  <img class="imlis" id="multiuso" src="./img/lista/multiuso.png">  </a> </td>
+                </tr>
+                <tr>
+                   <td> <a href="javascript: abrir('popup15');">  <img class="imlis" id="ventilador" src="./img/lista/ventilador.png">  </a> </td>
+                   <td> <a href="javascript: abrir('popup16');">  <img class="imlis" id="espelho" src="./img/lista/espelho.png">  </a> </td>
+                   <td> <a href="javascript: abrir('popup17');">  <img class="imlis" id="tabua.png" src="./img/lista/tabua.png">  </a> </td>
+                </tr>
+                <tr>
+                   <td> <a href="javascript: abrir('popup18');">  <img class="imlis" id="botijao" src="./img/lista/botijao.png">  </a> </td>
+                   <td> <a href="javascript: abrir('popup19');">  <img class="imlis" id="jogodeFacas" src="./img/lista/jogodeFacas.png">  </a> </td>
+                   <td> <a href="javascript: abrir('popup20');">  <img class="imlis" id="mesa" src="./img/lista/mesa.png">  </a> </td>
+                </tr>
+            </table>
+            <img class="notas" id="aviso" src="./img/lista/aviso.png">
+            <a href="./index.html">
+                <img id="voltar" src="./img/lista/Voltar.png">
+            </a>
+            <img id="rosa2" src="./img/rosa2.png">
+            
+            
+        </div>
+
+    <div id="popups">
+            <div id="popup0" class="popup">
+                <a href="https://www.google.com/search?q=sofa&sxsrf=ALeKk00fdy3hUCnKkkNla74XFFmm296XJw:1597954574075&source=lnms&tbm=shop&sa=X&ved=2ahUKEwjx4ITWzKrrAhWYE7kGHU6sDlQQ_AUoAXoECBAQAw&biw=960&bih=959" target="Sofa"
+                onmouseover="window.status='Presentear';  return true;"
+                onmouseout="window.status='';  return true;">
+                <img class="impopup" id="presentear" src="./img/lista/Presentear.png">
+                </a>
+                <a href="https://api.whatsapp.com/send?phone=5514991137732&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20se%20o%20item%20Sofa%20ainda%20est%C3%A1%20na%20sua%20lista%20de%20presentes." target="Sofa"
+                onmouseover="window.status='perguntar';  return true;"
+                onmouseout="window.status='';  return true;">
+                <img class="impopup" id="perguntar" src="./img/lista/Pergunteaosnoivos.png">
+                </a>
+                <a href="javascript: fechar('popup0');">
+                    <img id="xis" src="./img/lista/X.png">
+                </a>
+            </div>
+
+
+            <div id="popup1" class="popup">
+                <a href="https://www.google.com/search?biw=960&bih=959&tbm=shop&sxsrf=ALeKk01smT_UKaPrHDEqUnaVFrIMVffJKQ%3A1597954577488&ei=Edo-X_esHeK85OUPpYWo6AI&q=rack&oq=rack&gs_lcp=Cgtwcm9kdWN0cy1jYxADMgQIABBDMgcIABBDEIsDMgcIABBDEIsDMgcIABBDEIsDMgUIABCLAzIFCAAQiwMyBQgAEIsDMgUIABCLAzIFCAAQiwMyBQgAEIsDUJ7bAVj03QFgsN8BaABwAHgBgAHLAYgB_ASSAQUwLjMuMZgBAKABAaoBD3Byb2R1Y3RzLWNjLXdpergBA8ABAQ&sclient=products-cc&ved=0ahUKEwi3-dTXzKrrAhViHrkGHaUCCi0Q4dUDCAo&uact=5" target="Rack"
+                onmouseover="window.status='Presentear';  return true;"
+                onmouseout="window.status='';  return true;">
+                <img class="impopup" id="presentear" src="./img/lista/Presentear.png">
+                </a>
+                <a href="https://api.whatsapp.com/send?phone=5514991137732&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20se%20o%20item%20Rack%20ainda%20est%C3%A1%20na%20sua%20lista%20de%20presentes." target="Sofa"
+                onmouseover="window.status='perguntar';  return true;"
+                onmouseout="window.status='';  return true;">
+                <img class="impopup" id="perguntar" src="./img/lista/Pergunteaosnoivos.png">
+                </a>
+                <a href="javascript: fechar('popup1');">
+                    <img id="xis" src="./img/lista/X.png">
+                </a>
+            </div>
+
+
+            <div id="popup2" class="popup">
+                <a href="#" target="Puff"
+                onmouseover="window.status='Presentear';  return true;"
+                onmouseout="window.status='';  return true;">
+                <img class="impopup" id="presentear" src="./img/lista/Presentear.png">
+                </a>
+                <a href="https://api.whatsapp.com/send?phone=5514991137732&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20se%20o%20item%20Puff%20ainda%20est%C3%A1%20na%20sua%20lista%20de%20presentes." target="Sofa"
+                onmouseover="window.status='perguntar';  return true;"
+                onmouseout="window.status='';  return true;">
+                <img class="impopup" id="perguntar" src="./img/lista/Pergunteaosnoivos.png">
+                </a>
+                <a href="javascript: fechar('popup2');">
+                    <img id="xis" src="./img/lista/X.png">
+                </a>
+            </div>
+
+
+            <div id="popup18" class="popup">
+                <a href="#" target="Botijao"
+                onmouseover="window.status='Presentear';  return true;"
+                onmouseout="window.status='';  return true;">
+                <img class="impopup" id="presentear" src="./img/lista/Presentear.png">
+                </a>
+                <a href="https://api.whatsapp.com/send?phone=5514991137732&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20se%20o%20item%20Botijao%20ainda%20est%C3%A1%20na%20sua%20lista%20de%20presentes." target="Sofa"
+                onmouseover="window.status='perguntar';  return true;"
+                onmouseout="window.status='';  return true;">
+                <img class="impopup" id="perguntar" src="./img/lista/Pergunteaosnoivos.png">
+                </a>
+                <a href="javascript: fechar('popup18');">
+                    <img id="xis" src="./img/lista/X.png">
+                </a>
+            </div>
+
+
+            <div id="popup3" class="popup">
+                <a href="#" target="FritadeiraEletrica"
+                onmouseover="window.status='Presentear';  return true;"
+                onmouseout="window.status='';  return true;">
+                <img class="impopup" id="presentear" src="./img/lista/Presentear.png">
+                </a>
+                <a href="https://api.whatsapp.com/send?phone=5514991137732&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20se%20o%20item%20Fritadeira%20Eletrica%20ainda%20est%C3%A1%20na%20sua%20lista%20de%20presentes." target="Sofa"
+                onmouseover="window.status='perguntar';  return true;"
+                onmouseout="window.status='';  return true;">
+                <img class="impopup" id="perguntar" src="./img/lista/Pergunteaosnoivos.png">
+                </a>
+                <a href="javascript: fechar('popup3');">
+                    <img id="xis" src="./img/lista/X.png">
+                </a>
+            </div>
+
+
+            <div id="popup4" class="popup">
+                <a href="#" target="Cafeteira"
+                onmouseover="window.status='Presentear';  return true;"
+                onmouseout="window.status='';  return true;">
+                <img class="impopup" id="presentear" src="./img/lista/Presentear.png">
+                </a>
+                <a href="https://api.whatsapp.com/send?phone=5514991137732&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20se%20o%20item%20Cafeteira%20ainda%20est%C3%A1%20na%20sua%20lista%20de%20presentes." target="Sofa"
+                onmouseover="window.status='perguntar';  return true;"
+                onmouseout="window.status='';  return true;">
+                <img class="impopup" id="perguntar" src="./img/lista/Pergunteaosnoivos.png">
+                </a>
+                <a href="javascript: fechar('popup4');">
+                    <img id="xis" src="./img/lista/X.png">
+                </a>
+            </div>
+
+
+            <div id="popup5" class="popup">
+                <a href="#" target="Sanduicheira"
+                onmouseover="window.status='Presentear';  return true;"
+                onmouseout="window.status='';  return true;">
+                <img class="impopup" id="presentear" src="./img/lista/Presentear.png">
+                </a>
+                <a href="https://api.whatsapp.com/send?phone=5514991137732&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20se%20o%20item%20Sanduicheira%20ainda%20est%C3%A1%20na%20sua%20lista%20de%20presentes." target="Sofa"
+                onmouseover="window.status='perguntar';  return true;"
+                onmouseout="window.status='';  return true;">
+                <img class="impopup" id="perguntar" src="./img/lista/Pergunteaosnoivos.png">
+                </a>
+                <a href="javascript: fechar('popup5');">
+                    <img id="xis" src="./img/lista/X.png">
+                </a>
+            </div>
+
+
+            <div id="popup6" class="popup">
+                <a href="#" target="Mixer"
+                onmouseover="window.status='Presentear';  return true;"
+                onmouseout="window.status='';  return true;">
+                <img class="impopup" id="presentear" src="./img/lista/Presentear.png">
+                </a>
+                <a href="https://api.whatsapp.com/send?phone=5514991137732&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20se%20o%20item%20Mixer%20ainda%20est%C3%A1%20na%20sua%20lista%20de%20presentes." target="Sofa"
+                onmouseover="window.status='perguntar';  return true;"
+                onmouseout="window.status='';  return true;">
+                <img class="impopup" id="perguntar" src="./img/lista/Pergunteaosnoivos.png">
+                </a>
+                <a href="javascript: fechar('popup6');">
+                    <img id="xis" src="./img/lista/X.png">
+                </a>
+            </div>
+
+
+            <div id="popup7" class="popup">
+                <a href="#" target="Fruteira"
+                onmouseover="window.status='Presentear';  return true;"
+                onmouseout="window.status='';  return true;">
+                <img class="impopup" id="presentear" src="./img/lista/Presentear.png">
+                </a>
+                <a href="https://api.whatsapp.com/send?phone=5514991137732&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20se%20o%20item%20Fruteira%20ainda%20est%C3%A1%20na%20sua%20lista%20de%20presentes." target="Sofa"
+                onmouseover="window.status='perguntar';  return true;"
+                onmouseout="window.status='';  return true;">
+                <img class="impopup" id="perguntar" src="./img/lista/Pergunteaosnoivos.png">
+                </a>
+                <a href="javascript: fechar('popup7');">
+                    <img id="xis" src="./img/lista/X.png">
+                </a>
+            </div>
+
+
+            <div id="popup8" class="popup">
+                <a href="#" target="Processador"
+                onmouseover="window.status='Presentear';  return true;"
+                onmouseout="window.status='';  return true;">
+                <img class="impopup" id="presentear" src="./img/lista/Presentear.png">
+                </a>
+                <a href="https://api.whatsapp.com/send?phone=5514991137732&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20se%20o%20item%20Processador%20ainda%20est%C3%A1%20na%20sua%20lista%20de%20presentes." target="Sofa"
+                onmouseover="window.status='perguntar';  return true;"
+                onmouseout="window.status='';  return true;">
+                <img class="impopup" id="perguntar" src="./img/lista/Pergunteaosnoivos.png">
+                </a>
+
+                <a href="javascript: fechar('popup8');">
+                    <img id="xis" src="./img/lista/X.png">
+                </a>
+            </div>
+
+
+            <div id="popup9" class="popup">
+                <a href="#" target="Faqueiro"
+                onmouseover="window.status='Presentear';  return true;"
+                onmouseout="window.status='';  return true;">
+                <img class="impopup" id="presentear" src="./img/lista/Presentear.png">
+                </a>
+                <a href="https://api.whatsapp.com/send?phone=5514991137732&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20se%20o%20item%20Faqueiro%20ainda%20est%C3%A1%20na%20sua%20lista%20de%20presentes." target="Sofa"
+                onmouseover="window.status='perguntar';  return true;"
+                onmouseout="window.status='';  return true;">
+                <img class="impopup" id="perguntar" src="./img/lista/Pergunteaosnoivos.png">
+                </a>
+                <a href="javascript: fechar('popup9');">
+                    <img id="xis" src="./img/lista/X.png">
+                </a>
+            </div>
+
+
+            <div id="popup10" class="popup">
+                <a href="#" target="AparelhoDeJantar"
+                onmouseover="window.status='Presentear';  return true;"
+                onmouseout="window.status='';  return true;">
+                <img class="impopup" id="presentear" src="./img/lista/Presentear.png">
+                </a>
+                <a href="https://api.whatsapp.com/send?phone=5514991137732&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20se%20o%20item%20Aparelho%20De%20Jantar%20ainda%20est%C3%A1%20na%20sua%20lista%20de%20presentes." target="Sofa"
+                onmouseover="window.status='perguntar';  return true;"
+                onmouseout="window.status='';  return true;">
+                <img class="impopup" id="perguntar" src="./img/lista/Pergunteaosnoivos.png">
+                </a>
+                <a href="javascript: fechar('popup10');">
+                    <img id="xis" src="./img/lista/X.png">
+                </a>
+            </div>
+
+
+            <div id="popup19" class="popup">
+                <a href="#" target="JogoDeFacas"
+                onmouseover="window.status='Presentear';  return true;"
+                onmouseout="window.status='';  return true;">
+                <img class="impopup" id="presentear" src="./img/lista/Presentear.png">
+                </a>
+                <a href="https://api.whatsapp.com/send?phone=5514991137732&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20se%20o%20item%20Jogo%20De%20Facas%20ainda%20est%C3%A1%20na%20sua%20lista%20de%20presentes." target="Sofa"
+                onmouseover="window.status='perguntar';  return true;"
+                onmouseout="window.status='';  return true;">
+                <img class="impopup" id="perguntar" src="./img/lista/Pergunteaosnoivos.png">
+                </a>
+                <a href="javascript: fechar('popup19');">
+                    <img id="xis" src="./img/lista/X.png">
+                </a>
+            </div>
+
+
+            <div id="popup11" class="popup">
+                <a href="#" target="Marinex"
+                onmouseover="window.status='Presentear';  return true;"
+                onmouseout="window.status='';  return true;">
+                <img class="impopup" id="presentear" src="./img/lista/Presentear.png">
+                </a>
+                <a href="https://api.whatsapp.com/send?phone=5514991137732&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20se%20o%20item%20Marinex%20ainda%20est%C3%A1%20na%20sua%20lista%20de%20presentes." target="Sofa"
+                onmouseover="window.status='perguntar';  return true;"
+                onmouseout="window.status='';  return true;">
+                <img class="impopup" id="perguntar" src="./img/lista/Pergunteaosnoivos.png">
+                </a>
+                <a href="javascript: fechar('popup11');">
+                    <img id="xis" src="./img/lista/X.png">
+                </a>
+            </div>
+
+
+            <div id="popup12" class="popup">
+                <a href="#" target="BatedeiraPlanetaria"
+                onmouseover="window.status='Presentear';  return true;"
+                onmouseout="window.status='';  return true;">
+                <img class="impopup" id="presentear" src="./img/lista/Presentear.png">
+                </a>
+                <a href="https://api.whatsapp.com/send?phone=5514991137732&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20se%20o%20item%20Batedeira%20Planetaria%20ainda%20est%C3%A1%20na%20sua%20lista%20de%20presentes." target="Sofa"
+                onmouseover="window.status='perguntar';  return true;"
+                onmouseout="window.status='';  return true;">
+                <img class="impopup" id="perguntar" src="./img/lista/Pergunteaosnoivos.png">
+                </a>
+                <a href="javascript: fechar('popup12');">
+                    <img id="xis" src="./img/lista/X.png">
+                </a>
+            </div>
+
+
+            <div id="popup13" class="popup">
+                <a href="#" target="CriadoMudo"
+                onmouseover="window.status='Presentear';  return true;"
+                onmouseout="window.status='';  return true;">
+                <img class="impopup" id="presentear" src="./img/lista/Presentear.png">
+                </a>
+                <a href="https://api.whatsapp.com/send?phone=5514991137732&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20se%20o%20item%20Criado%20Mudo%20ainda%20est%C3%A1%20na%20sua%20lista%20de%20presentes." target="Sofa"
+                onmouseover="window.status='perguntar';  return true;"
+                onmouseout="window.status='';  return true;">
+                <img class="impopup" id="perguntar" src="./img/lista/Pergunteaosnoivos.png">
+                </a>
+                <a href="javascript: fechar('popup13');">
+                    <img id="xis" src="./img/lista/X.png">
+                </a>
+            </div>
+
+
+            <div id="popup14" class="popup">
+                <a href="#" target="Multiuso"
+                onmouseover="window.status='Presentear';  return true;"
+                onmouseout="window.status='';  return true;">
+                <img class="impopup" id="presentear" src="./img/lista/Presentear.png">
+                </a>
+                <a href="https://api.whatsapp.com/send?phone=5514991137732&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20se%20o%20item%20Multiuso%20ainda%20est%C3%A1%20na%20sua%20lista%20de%20presentes." target="Sofa"
+                onmouseover="window.status='perguntar';  return true;"
+                onmouseout="window.status='';  return true;">
+                <img class="impopup" id="perguntar" src="./img/lista/Pergunteaosnoivos.png">
+                </a>
+                <a href="javascript: fechar('popup14');">
+                    <img id="xis" src="./img/lista/X.png">
+                </a>
+            </div>
+
+
+            <div id="popup15" class="popup">
+                <a href="#" target="Ventilador"
+                onmouseover="window.status='Presentear';  return true;"
+                onmouseout="window.status='';  return true;">
+                <img class="impopup" id="presentear" src="./img/lista/Presentear.png">
+                </a>
+                <a href="https://api.whatsapp.com/send?phone=5514991137732&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20se%20o%20item%20Ventilador%20ainda%20est%C3%A1%20na%20sua%20lista%20de%20presentes." target="Sofa"
+                onmouseover="window.status='perguntar';  return true;"
+                onmouseout="window.status='';  return true;">
+                <img class="impopup" id="perguntar" src="./img/lista/Pergunteaosnoivos.png">
+                </a>
+                <a href="javascript: fechar('popup15');">
+                    <img id="xis" src="./img/lista/X.png">
+                </a>
+            </div>
+
+
+            <div id="popup16" class="popup">
+                <a href="#" target="Espelho"
+                onmouseover="window.status='Presentear';  return true;"
+                onmouseout="window.status='';  return true;">
+                <img class="impopup" id="presentear" src="./img/lista/Presentear.png">
+                </a>
+                <a href="https://api.whatsapp.com/send?phone=5514991137732&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20se%20o%20item%20Espelho%20ainda%20est%C3%A1%20na%20sua%20lista%20de%20presentes." target="Sofa"
+                onmouseover="window.status='perguntar';  return true;"
+                onmouseout="window.status='';  return true;">
+                <img class="impopup" id="perguntar" src="./img/lista/Pergunteaosnoivos.png">
+                </a>
+                <a href="javascript: fechar('popup16');">
+                    <img id="xis" src="./img/lista/X.png">
+                </a>
+            </div>
+
+
+            <div id="popup17" class="popup">
+                <a href="#" target="TabuaDePassar"
+                onmouseover="window.status='Presentear';  return true;"
+                onmouseout="window.status='';  return true;">
+                <img class="impopup" id="presentear" src="./img/lista/Presentear.png">
+                </a>
+                <a href="https://api.whatsapp.com/send?phone=5514991137732&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20se%20o%20item%20Tabua%20De%20Passar%20ainda%20est%C3%A1%20na%20sua%20lista%20de%20presentes." target="Sofa"
+                onmouseover="window.status='perguntar';  return true;"
+                onmouseout="window.status='';  return true;">
+                <img class="impopup" id="perguntar" src="./img/lista/Pergunteaosnoivos.png">
+                </a>
+                <a href="javascript: fechar('popup17');">
+                    <img id="xis" src="./img/lista/X.png">
+                </a>
+            </div>
+
+
+            <div id="popup20" class="popup">
+                <a href="#" target="MesaComCadeiras"
+                onmouseover="window.status='Presentear';  return true;"
+                onmouseout="window.status='';  return true;">
+                <img class="impopup" id="presentear" src="./img/lista/Presentear.png">
+                </a>
+                <a href="https://api.whatsapp.com/send?phone=5514991137732&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20se%20o%20item%20Mesa%20Com%20Cadeiras%20ainda%20est%C3%A1%20na%20sua%20lista%20de%20presentes." target="Sofa"
+                onmouseover="window.status='perguntar';  return true;"
+                onmouseout="window.status='';  return true;">
+                <img class="impopup" id="perguntar" src="./img/lista/Pergunteaosnoivos.png">
+                </a>
+                <a href="javascript: fechar('popup20');">
+                    <img id="xis" src="./img/lista/X.png">
+                </a>
+            </div>
+    </div>
+
+        
+
+
+    </body>
+</html>

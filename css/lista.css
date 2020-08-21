@@ -1,0 +1,233 @@
+
+#tabela {
+    width: 700px;  
+    position: absolute;  
+    left: 100px;  
+    top: 400px;  
+    bottom: 400px;
+
+}
+.imlis {
+    width: 60%;  
+    vertical-align: bottom;  
+    padding: 45px;  
+    margin-left: 0px;  
+    margin-right: 0px;  
+    filter: drop-shadow(3px 3px 3px rgba(34, 34, 34, 0.295)); 
+}
+.imlis{
+    transition: all 0.5s;  
+    cursor: pointer;
+    
+}
+
+.imlis:hover{
+    -webkit-transform: scale(1.5);  
+    transform: scale(1.5);
+    
+}
+#voltar {
+    width: auto;
+    height: 50px;
+    position: relative;
+    top: 8%;
+    left: -160px;
+}
+#popup4, #popup1 ,#popup0,#popup3, #popup2 ,#popup5, #popup6, #popup7, #popup8, #popup9, #popup10, #popup11, #popup12, #popup13, #popup14, #popup15, #popup16, #popup17, #popup18, #popup19, #popup20 {
+    position: fixed;  
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right:0;  
+    margin: auto;  
+    width: 500px;  
+    height: 180px;  
+    background: #00000073;  
+    display: none; 
+}
+.impopup {
+    width: 40%;
+    position: relative;
+    left: 10%;
+    top: 25%;
+    
+}
+#perguntar {
+    width: 25%;
+    left: 25%;
+}
+#xis {
+    width: 2%;
+    position: relative;
+    left: 30%;
+    bottom: 18%;
+}
+.impopup{
+    transition: all 0.5s;  
+    cursor: pointer;
+    
+}
+
+.impopup:hover{
+    -webkit-transform: scale(1.5);  
+    transform: scale(1.5);
+    
+}
+#titulo {
+    width: auto;
+    height: 70px;
+    position: relative;
+    top: 300px;
+    left: 22%;
+    filter: drop-shadow(3px 3px 3px rgba(34, 34, 34, 0.336)); 
+    flex-direction: column;
+    align-items: center;
+}
+#aviso {
+    width: auto;
+    height: 80px;
+    position: relative;
+    top: 85%;
+    right: 31.5%;
+}
+@media screen and (min-width:10px){
+    #itens {
+        height: 1550px;
+    }
+    #tabela {
+        width: 350px;
+        left: 1px;
+        top: 180px;
+    }
+    #voltar {
+        width: auto;
+        height: 30px;
+        position: relative;
+        top: 8%;
+        left: -150px;
+    }
+    #popup4, #popup1 ,#popup0,#popup3, #popup2 ,#popup5, #popup6, #popup7, #popup8, #popup9, #popup10, #popup11, #popup12, #popup13, #popup14, #popup15, #popup16, #popup17, #popup18, #popup19, #popup20 {
+    width: 350px;
+    }
+    .impopup {
+        width: 40%;
+        position: relative;
+        left: 10%;
+        top: 35%;
+    }
+    #perguntar {
+        width: 25%;
+        left: 25%;
+    }
+    #xis {
+        width: 2%;
+        position: relative;
+        left: 27.5%;
+        bottom: 10%;
+    }
+
+    #titulo {
+        left: 20.5%;
+        top: 160px;
+        height: 40px;
+    }
+    #aviso {
+        width: auto;
+        height: 55px;
+        position: relative;
+        top: 85%;
+        right: 42.5%;
+    }
+}
+@media screen and (min-width:500px){
+    #itens {
+        height: 1850px;
+    }
+    #tabela {
+        width: 450px;
+        left: 10px;
+        top: 230px;
+        
+    }
+    #voltar {
+        width: auto;
+        height: 40px;
+        position: relative;
+        top: 8%;
+        left: -200px;
+    }
+    #titulo {
+        left: 21.5%;
+        top: 190px;
+        height: 50px;
+    }
+    #aviso {
+        width: auto;
+        height: 70px;
+        position: relative;
+        top: 83%;
+        right: 41.5%;
+    }
+}
+@media screen and (min-width:768px){
+    #itens {
+        height: 2350px;
+    }
+    #tabela {
+        width: 650px;
+        left: 50px;
+        top: 365px;
+    }
+    #voltar {
+        width: auto;
+        height: 60px;
+        position: relative;
+        top: 10%;
+        left: -150px;
+    }
+    #titulo {
+        width: auto;
+        height: 70px;
+        position: relative;
+        top: 300px;
+        left: 22%;
+    }
+    #aviso {
+        width: auto;
+        height: 80px;
+        position: relative;
+        top: 85%;
+        right: 31.5%;
+    }
+}
+@media screen and (min-width:1080px){
+    #itens {
+        height: 2500px;
+    }
+    #tabela {
+        width: 700px;
+        left: 100px;
+        top: 400px;
+    }
+    #voltar {
+        width: auto;
+        height: 70px;
+        position: relative;
+        top: 10%;
+        left: -200px;
+    }
+    #titulo {
+        left: 20%;
+        top: 330px;
+        height: 90px;
+    }
+    #aviso {
+        width: auto;
+        height: 90px;
+        position: relative;
+        top: 83%;
+        right: 35%;
+    }
+}
+
+
