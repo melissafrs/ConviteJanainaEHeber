@@ -9,13 +9,13 @@
         <script type="text/javascript">
             function abrir(nome) {
                 document.getElementById(nome).style.display = 'block';                
-                for (var i = 0; i < 21; i++) {
+                for (var i = 0; i <= 21; i++) {
                     document.getElementsByTagName("a")[i].removeAttribute('href');
                  }
             }
 			function fechar(nome){
                 document.getElementById(nome).style.display =  'none';
-                for (var i = 0; i < 21; i++) {
+                for (var i = 0; i <= 21; i++) {
                     var x = 'javascript: abrir'+"('popup"+ i + "');";
                     document.getElementsByTagName("a")[i].setAttribute('href', x); 
                 }
@@ -64,7 +64,13 @@
                    <td> <a href="javascript: abrir('popup19');">  <img class="imlis" id="jogodeFacas" src="./img/lista/jogodeFacas.png">  </a> </td>
                    <td> <a href="javascript: abrir('popup20');">  <img class="imlis" id="mesa" src="./img/lista/mesa.png">  </a> </td>
                 </tr>
+                <tr>
+                    <td></td>
+                    <td> <a href="javascript: abrir('popup21');">  <img class="imlis" id="guardaroupa" src="./img/lista/guardaroupa.png">  </a> </td>
+                    <td></td>
+                 </tr>
             </table>
+
             <img class="notas" id="aviso" src="./img/lista/aviso.png">
             <a href="./index.html">
                 <img id="voltar" src="./img/lista/Voltar.png">
@@ -428,6 +434,21 @@
                 <img class="impopup" id="perguntar" src="./img/lista/Pergunteaosnoivos.png">
                 </a>
                 <a href="javascript: fechar('popup20');">
+                    <img id="xis" src="./img/lista/X.png">
+                </a>
+            </div>
+            <div id="popup21" class="popup">
+                <a href="https://www.google.com/search?rlz=1C1GCEA_enBR849BR849&biw=1366&bih=657&tbs=init_ar%3ASgeyBAQIiq0g&tbm=shop&sxsrf=ALeKk026RpuNkHREzxwL2F4naeq-wJcqFg%3A1598058368600&ei=gG9AX_KdJP2z5OUP8aijiAY&q=guarda+roupas+casal+espelho+com+p%C3%A9s&oq=guarda+roupas+casal+espelho+com+p%C3%A9s&gs_lcp=Cgtwcm9kdWN0cy1jYxADOgQIIxAnOgYIABAIEB5Q9I4BWM6hAWCepQFoAHAAeACAAaQBiAGlC5IBBDEuMTGYAQCgAQGqAQ9wcm9kdWN0cy1jYy13aXrAAQE&sclient=products-cc&ved=0ahUKEwjy3Y-rz63rAhX9GbkGHXHUCGEQ4dUDCAo&uact=5" target="GuardaRoupa"
+                onmouseover="window.status='Presentear';  return true;"
+                onmouseout="window.status='';  return true;">
+                <img class="impopup" id="presentear" src="./img/lista/Presentear.png">
+                </a>
+                <a href="https://api.whatsapp.com/send?phone=5514991137732&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20se%20o%20item%20Guarda%20Roupas%20ainda%20est%C3%A1%20na%20sua%20lista%20de%20presentes." target="Sofa"
+                onmouseover="window.status='perguntar';  return true;"
+                onmouseout="window.status='';  return true;">
+                <img class="impopup" id="perguntar" src="./img/lista/Pergunteaosnoivos.png">
+                </a>
+                <a href="javascript: fechar('popup21');">
                     <img id="xis" src="./img/lista/X.png">
                 </a>
             </div>

@@ -34,7 +34,7 @@
     right: 10px;
     top: 8%;
 }
-#popup4, #popup1 ,#popup0,#popup3, #popup2 ,#popup5, #popup6, #popup7, #popup8, #popup9, #popup10, #popup11, #popup12, #popup13, #popup14, #popup15, #popup16, #popup17, #popup18, #popup19, #popup20 {
+#popup4, #popup1 ,#popup0,#popup3, #popup2 ,#popup5, #popup6, #popup7, #popup8, #popup9, #popup10, #popup11, #popup12, #popup13, #popup14, #popup15, #popup16, #popup17, #popup18, #popup19, #popup20, #popup21 {
     position: fixed;  
     top: 0;
     bottom: 0;
@@ -93,7 +93,7 @@
 }
 @media screen and (min-width:10px){
     #itens {
-        height: 1550px;
+        height: 1750px;
     }
     #tabela {
         width: 350px;
@@ -108,7 +108,7 @@
         right: 10px;
         top: 8%;
     }
-    #popup4, #popup1 ,#popup0,#popup3, #popup2 ,#popup5, #popup6, #popup7, #popup8, #popup9, #popup10, #popup11, #popup12, #popup13, #popup14, #popup15, #popup16, #popup17, #popup18, #popup19, #popup20 {
+    #popup4, #popup1 ,#popup0,#popup3, #popup2 ,#popup5, #popup6, #popup7, #popup8, #popup9, #popup10, #popup11, #popup12, #popup13, #popup14, #popup15, #popup16, #popup17, #popup18, #popup19, #popup20, #popup21 {
     width: 350px;
     }
     .impopup {
@@ -143,7 +143,7 @@
 }
 @media screen and (min-width:500px){
     #itens {
-        height: 1850px;
+        height: 2070px;
     }
     #tabela {
         width: 450px;
@@ -174,7 +174,7 @@
 }
 @media screen and (min-width:768px){
     #itens {
-        height: 2350px;
+        height: 2600px;
     }
     #tabela {
         width: 650px;
@@ -205,7 +205,7 @@
 }
 @media screen and (min-width:1080px){
     #itens {
-        height: 2500px;
+        height: 2800px;
     }
     #tabela {
         width: 700px;
