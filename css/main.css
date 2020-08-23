@@ -55,7 +55,7 @@ body{
 #nomes {
     opacity: 0;
     animation-name: bounceIn;
-    animation-duration: 450ms;
+    animation-duration: 950ms;
     animation-timing-function: linear;
     animation-fill-mode: forwards;
 }
