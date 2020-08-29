@@ -9,13 +9,13 @@
         <script type="text/javascript">
             function abrir(nome) {
                 document.getElementById(nome).style.display = 'block';                
-                for (var i = 0; i <= 21; i++) {
+                for (var i = 0; i <= 18; i++) {
                     document.getElementsByTagName("a")[i].removeAttribute('href');
                  }
             }
 			function fechar(nome){
                 document.getElementById(nome).style.display =  'none';
-                for (var i = 0; i <= 21; i++) {
+                for (var i = 0; i <= 18; i++) {
                     var x = 'javascript: abrir'+"('popup"+ i + "');";
                     document.getElementsByTagName("a")[i].setAttribute('href', x); 
                 }
