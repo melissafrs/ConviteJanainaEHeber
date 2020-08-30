@@ -112,19 +112,19 @@
     width: 350px;
     }
     .impopup {
-        width: 40%;
+        width: 30%;
         position: relative;
         left: 10%;
         top: 35%;
     }
     #perguntar {
-        width: 25%;
-        left: 25%;
+        width: 27%;
+        left: 32%;
     }
     #xis {
         width: 2%;
         position: relative;
-        left: 27.5%;
+        left: 37%;
         bottom: 10%;
     }
 
